@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(#12b878,#031925);
+    width: 100px;
+    height: 100vh;
+    margin: auto;
+    font-family: system-ui;
+    color: #fff;
+}
+h1{
+    font-weight: 200;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 4px;
+    background: #0c81c0;
+    padding: 6px 15px;
+    border-radius: 20px;
+    display: block;
+    width: 150px;
+    text-transform: uppercase;
+    transition: 0.5;
+}
+ul li a:hover{
+    transform: scale(1.5);
+    background: #ab08dd;
+
+}
